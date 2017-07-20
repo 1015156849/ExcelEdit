@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:paddingLeft="24dp"
+        android:lines="1"
+        android:maxLength="20"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ffj_9"
+        android:ems="10" />
+
+    <ImageView
+        android:id="@+id/itemAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:src="@mipmap/idz"
+        android:visibility="visible"
+
+        />
+
+    <ImageView
+        android:id="@+id/itemRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:src="@mipmap/gyx"
+        android:visibility="invisible"
+
+        />
+
+</LinearLayout>
